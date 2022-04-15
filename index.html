@@ -7,25 +7,18 @@
 	<meta name="viewport" content="width=1320">
 	<title>만복어</title>
 
-	 <!-- Link Swiper's CSS -->
-	<link rel="stylesheet" href="css/swiper-bundle.min.css"> 
-	<link rel="stylesheet" href="css/style.css">
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/Effect_coverflow.css">
-		<!--스타일시트-->
+	<!--스타일시트-->
 
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.slider.min.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				$('.imgSlide img').slidingGallery({ useCaptions: true, container: $('.imgSlide') });
-			});
-		</script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.slider.min.js"></script>
+	<script src="js/aswiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
 
-		<script src="js/aswiper-bundle.min.js"></script>
 
-		<script src="js/script.js"></script>		
-		
-		
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
 	<!--퍼스나콘-->
 
@@ -51,77 +44,81 @@
 				</ul>
 			</div>
 
-		<ul id="gnb"><!--메뉴-->
-			<li><a href="#">About us</a></li>
-			<li><a href="#">Menu</a></li>
-			<li><a href="#">Reservation</a></li>
-			<li><a href="#">Review</a></li>
-			<li><a href="#">Store</a></li>
-		</ul>
-		<div class="submenu_wrap"><!--서브메뉴-->
-			<div class="submenu"><!--가운데-->
-				<div class="submenu_right"><!--오른쪽-->
-					<ul>
-						<li><a href="#">만복어 안내</a></li>						
-					</ul>
-					<ul>
-						<li><a href="#">코스메뉴</a></li>
-						<li><a href="#">단품메뉴</a></li>
-						<li><a href="#">주류 및 음료</a></li>
-					</ul>
-					<ul>
-						<li><a href="#">예약하기</a></li>						
-					</ul>
-					<ul>
-						<li><a href="#">리뷰쓰기</a></li>						
-					</ul>
-					<ul>
-						<li><a href="#">오시는 길</a></li>						
-					</ul>
+			<ul id="gnb">
+				<!--메뉴-->
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Reservation</a></li>
+				<li><a href="#">Review</a></li>
+				<li><a href="#">Store</a></li>
+			</ul>
+			<div class="submenu_wrap">
+				<!--서브메뉴-->
+				<div class="submenu">
+					<!--가운데-->
+					<div class="submenu_right">
+						<!--오른쪽-->
+						<ul>
+							<li><a href="#">만복어 안내</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">코스메뉴</a></li>
+							<li><a href="#">단품메뉴</a></li>
+							<li><a href="#">주류 및 음료</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">예약하기</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">리뷰쓰기</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">오시는 길</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
+
 	</div>
-			
-		</div>
 	</div>
 	<!--header-->
 
 	<div id="video">
 		<!-- Swiper -->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><video muted autoplay loop src="media/01.mp4"></video></div>
-        <div class="swiper-slide"><video muted autoplay loop src="media/02.mp4"></video></div>
-        <div class="swiper-slide"><video muted autoplay loop src="media/03.mp4"></video></div>        
-      </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-    </div>
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><video muted autoplay loop src="media/01.mp4"></video></div>
+				<div class="swiper-slide"><video muted autoplay loop src="media/02.mp4"></video></div>
+				<div class="swiper-slide"><video muted autoplay loop src="media/03.mp4"></video></div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-pagination"></div>
+		</div>
 
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<!-- Swiper JS -->
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 0,
-        centeredSlides: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+				spaceBetween: 0,
+				centeredSlides: true,
+				autoplay: {
+					delay: 2500,
+					disableOnInteraction: false,
+				},
+				pagination: {
+					el: ".swiper-pagination",
+					clickable: true,
+				},
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
+			});
+		</script>
 	</div>
 
 	<div class="sec_b1">
@@ -142,7 +139,7 @@
 	</div>
 
 	<!--section-->
-	<div class="fugu_icon">		
+	<div class="fugu_icon">
 		<h2>추천메뉴</h2>
 	</div>
 
@@ -150,19 +147,19 @@
 		<div class="menu_inner">
 			<div class="wrap">
 				<div class="imgSlide">
-					
-					<img src="images/menu_img01.jpg" alt="복어밥"/>					
-					<img src="images/menu_img03.jpg" alt="껍질무침"/>
-					<img src="images/menu_img04.jpg" alt="복샤브" class="start"/>
-					<img src="images/menu_img05.jpg" alt="복불고기"/>
-					<img src="images/menu_img06.jpg" alt="복어죽"/>
-					<img src="images/menu_img02.jpg" alt="히레사케"/>
-					<img src="images/menu_img07.jpg" alt="복어튀김"/>				
-					
+
+					<img src="images/menu_img01.jpg" alt="복어밥" />
+					<img src="images/menu_img03.jpg" alt="껍질무침" />
+					<img src="images/menu_img04.jpg" alt="복샤브" class="start" />
+					<img src="images/menu_img05.jpg" alt="복불고기" />
+					<img src="images/menu_img06.jpg" alt="복어죽" />
+					<img src="images/menu_img02.jpg" alt="히레사케" />
+					<img src="images/menu_img07.jpg" alt="복어튀김" />
+
 				</div>
 
 				<div class="h8">
-				<h8>※연출된 이미지입니다. 실제와 다를 수 있습니다.</h8>
+					<h8>※연출된 이미지입니다. 실제와 다를 수 있습니다.</h8>
 				</div>
 			</div>
 		</div>
@@ -176,42 +173,42 @@
 
 	<div class="menu_2">
 		<div class="menu_inner">
-			
+
 			<!-- Aswiper -->
 			<div class="aswiper myAswiper">
 				<div class="aswiper-wrapper">
 					<div class="aswiper-slide">
-						<img src="images/fugu_bulgogi.jpg" alt="복불고기"/>
-						<p></p>						
+						<img src="images/fugu_bulgogi.jpg" alt="복불고기" />
+						<p></p>
 					</div>
 					<div class="aswiper-slide">
-						<img src="images/fugu_milt.jpg" alt="복어이리"/>
+						<img src="images/fugu_milt.jpg" alt="복어이리" />
 					</div>
 					<div class="aswiper-slide">
-						<img src="images/fugu_pepper.jpg" alt="복껍질튀김"/>
+						<img src="images/fugu_pepper.jpg" alt="복껍질튀김" />
 					</div>
 					<div class="aswiper-slide">
-						<img src="images/fugu_rice.jpg" alt="복어밥"/>
+						<img src="images/fugu_rice.jpg" alt="복어밥" />
 					</div>
 					<div class="aswiper-slide">
-						<img src="images/fugu_sashimi.jpg" alt="복어회"/>
+						<img src="images/fugu_sashimi.jpg" alt="복어회" />
 					</div>
 					<div class="aswiper-slide">
-						<img src="images/fugu_shabu.jpg" alt="복어샤브샤브"/>
+						<img src="images/fugu_shabu.jpg" alt="복어샤브샤브" />
 					</div>
 					<div class="aswiper-slide">
-						<img src="images/fugu_skin.jpg" alt="복껍질무침"/>
+						<img src="images/fugu_skin.jpg" alt="복껍질무침" />
 					</div>
 				</div>
 				<div class="aswiper-pagination"></div>
 
 				<div class="h8">
 					<h8>※연출된 이미지입니다. 실제와 다를 수 있습니다.</h8>
-					</div>
+				</div>
 			</div>
 
 		</div>
-	</div>	
+	</div>
 
 	<div class="back_4"></div>
 
@@ -251,12 +248,13 @@
 	<div class="origin">
 		<div class="origin_pepper">
 			<a href="#"><img src="images/pepper.png" alt="고추가루">
-			<p>[GAP] 인증을 받은 100%<br>
-				국내산 홍고추만을<br>
-				사용합니다.</p>
+				<p>[GAP] 인증을 받은 100%<br>
+					국내산 홍고추만을<br>
+					사용합니다.</p>
 				<div class="hover">
 					<img src="images/search.png" alt="돋보기">
-				</div></a>
+				</div>
+			</a>
 		</div>
 
 		<div class="origin_egg">
@@ -320,45 +318,51 @@
 					</ul>
 				</div>
 
-				<p><span class="span">대표 : 홍길동 | 주소 : 부산 중구 중앙대로 26 1층<br>	
-					사업자등록번호 : 111-22-33333 통신판매업신고번호 : 2022-부산중구-00000호 사업자정보확인<br>
-					copyright ⓒ MANBOKUH all rights reserved.<br>
-					홈페이지 관련 문의 : 051-123-4567<br>
-					상담시간 : 월~금 10:00~17:00 (토/일, 공휴일 휴무, 점심시간 12:00~13:30)<br>
-					대표번호 : 051-123-4567</span></p>
+				<p><span class="span">대표 : 홍길동 | 주소 : 부산 중구 중앙대로 26 1층<br>
+						사업자등록번호 : 111-22-33333 통신판매업신고번호 : 2022-부산중구-00000호 사업자정보확인<br>
+						copyright ⓒ MANBOKUH all rights reserved.<br>
+						홈페이지 관련 문의 : 051-123-4567<br>
+						상담시간 : 월~금 10:00~17:00 (토/일, 공휴일 휴무, 점심시간 12:00~13:30)<br>
+						대표번호 : 051-123-4567</span></p>
 
-					<div class="social">
-						<ul>
-							<li><a href="#"><img src="images/instargram.png" alt="인스타그램"></a></li>
-							<li><a href="#"><img src="images/facebook.png" alt="페이스북"></a></li>
-							<li><a href="#"><img src="images/twitter.png" alt="트위터"></a></li>
-							<li><a href="#"><img src="images/kakao.png" alt="카카오"></a></li>
-						</ul>
-					</div>
+				<div class="social">
+					<ul>
+						<li><a href="#"><img src="images/instargram.png" alt="인스타그램"></a></li>
+						<li><a href="#"><img src="images/facebook.png" alt="페이스북"></a></li>
+						<li><a href="#"><img src="images/twitter.png" alt="트위터"></a></li>
+						<li><a href="#"><img src="images/kakao.png" alt="카카오"></a></li>
+					</ul>
+				</div>
 
-				</div>
-				</div>
 			</div>
+		</div>
+	</div>
 
-			<script>
-				var aswiper = new Aswiper(".myAswiper", {
-					effect: "coverflow",
-					grabCursor: true,
-					centeredSlides: true,
-					slidesPerView: "auto",
-					coverflowEffect: {
-						rotate: 50,
-						stretch: 0,
-						depth: 100,
-						modifier: 1,
-						slideShadows: true,
-					},
-					pagination: {
-						el: ".aswiper-pagination",
-					},
-				});
-			</script>
-			
+	<script>
+		var aswiper = new Aswiper(".myAswiper", {
+			effect: "coverflow",
+			grabCursor: true,
+			centeredSlides: true,
+			slidesPerView: "auto",
+			coverflowEffect: {
+				rotate: 50,
+				stretch: 0,
+				depth: 100,
+				modifier: 1,
+				slideShadows: true,
+			},
+			pagination: {
+				el: ".aswiper-pagination",
+			},
+		});
+	</script>
+
+	<script type="text/javascript">
+		$(function () {
+			$('.imgSlide img').slidingGallery({ useCaptions: true, container: $('.imgSlide') });
+		});
+	</script>
+
 </body>
 
 </html>
