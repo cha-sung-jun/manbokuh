@@ -139,7 +139,7 @@
   scroll-snap-type: y mandatory;
 }
 :root {
-  --swiper-navigation-size: 44px;
+  --swiper-navigation-size: 25px;
   /*
   --swiper-navigation-color: var(--swiper-theme-color);
   */
@@ -148,7 +148,7 @@
 .swiper-button-next {
   position: absolute;
   top: 50%;
-  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  width: calc(var(--swiper-navigation-size) / 25 * 15);
   height: var(--swiper-navigation-size);
   margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
   z-index: 10;
@@ -194,7 +194,7 @@
 }
 .swiper-button-prev.swiper-button-white,
 .swiper-button-next.swiper-button-white {
-  --swiper-navigation-color: #ffffff;
+  --swiper-navigation-color: #f2f2f2;
 }
 .swiper-button-prev.swiper-button-black,
 .swiper-button-next.swiper-button-black {

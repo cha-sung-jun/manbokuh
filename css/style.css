@@ -8,8 +8,7 @@ ul {
 }
 
 a {
-  text-decoration: none;
-  color: #f2f2f2;
+  text-decoration: none;  
 }
 
 body {
@@ -17,109 +16,123 @@ body {
   font-size: 12px;
   line-height: 24px;
   background: url(../images/background_full.png) no-repeat center;
-  min-width: 1320px;        
+  min-width: 1320px; 
+  overflow-x: hidden;        
 }
   
 
+/*header*/
 
 #header {
-  background: url(../images/wave.jpg) no-repeat center;
-  width: 100%;
-  height: 234px;
+  background: url(../images/wave.jpg) no-repeat center;  
+  height: 235px;
 }
 
-.header_inner {
-  width: 1320px;
-  height: 350px;
+h1{
+  padding-top: 30px;
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 15px;  
+}
+
+p {
+  font-size: 16px;
+  color: #2c2c2c;
+  font-weight: 400;
+  padding: 10px 0 0 5px;
+}
+
+
+.logo{
+  text-align: center;  
+  width: 100px;
+  height: 120px;  
+}
+
+.nav{     
+  width: 1000px;
+  height: 80px;
   margin: auto;
 }
-
-.logo {
-  margin: auto;
-  text-align: center;
-  padding-top: 40px;
-  box-sizing: border-box;
-}
-
-#gnb{
+.nav> li{
   float: left;
-  width: 1320px;
-  margin: auto;
-  position: absolute;
-  top: 160px;
-  left: 50%;
-  transform: translateX(-30%);
+  margin: 10px 0 0 50px;  
+  padding: 3px 20px;
 }
-#gnb li{
-	float: left;
-	padding: 26px 10px 0;
-}
-#gnb li a{
-	display: block;
-	font-size: 16px;
-	font-weight: 600;
-	padding: 10px 36px 1px;	
-}
-#gnb li a:hover{
-	color: #ff9933;
-}
-
-.submenu_wrap{  
-	position: absolute;
-	top: 233px;
-	left: 0px;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.7);  
-  z-index: 02;
-}
-
-.submenu{
-	width: 100%;
-	margin: 0 auto;
+.nav> li> a{
+  display: block;
+  padding: 10px 0 20px;
+  width: 100px;
   text-align: center;
+  font-size: 16px;
+  color: #f2f2f2;
 }
-.submenu_right{
-	float: left;
-  padding-left: 560px;
-}
-
-.submenu_right ul{
-	text-align: center;
-	float: left;
-	width: 150px;	 
-  font-size: 15px; 
-}
-
-.submenu_right ul:nth-child(2){
-  padding-right: 10px;
-}
-
-.submenu_right ul:nth-child(3){
-  padding-right: 20px;
-}
-
-.submenu_right ul:nth-child(5){
-  transform: translateX(-8px);
+.nav> li> a:hover{  
+  color: #ff9933;
 }
 
 
-
-.submenu_right ul li a{
-	display: block;
-	padding: 10px 0;
+.sub{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  display: none;
+  z-index: 10;
 }
-.submenu_right ul li a:hover{
-	color: #ff9933;
+
+.sub div{
+  width: 1320px;
+  margin: auto; 
+  padding: 0px 200px 0 428px; 
 }
 
+.sub ul{
+  float: left;
+  width: 160px;
+  text-align: center;
+  margin-left: 63px;
+}
 
+.sub ul:nth-child(2){
+  margin-left: 30px;
+}
 
-.login {
+.sub ul:nth-child(3){
+  margin-left: 30px;
+}
+
+.sub ul:nth-child(4){
+  margin-left: 30px;
+}
+
+.sub ul:nth-child(5){
+  margin-left: 30px;
+}
+
+.sub ul a{
+  color: #f2f2f2;
+  display: block;
+  padding: 10px;  
+  font-size: 14px;
+  font-weight: 400;  
+}
+
+.nav li:hover .sub{
+  display: block;    
+}
+
+.sub a:hover{
+  color: #ff9933;
+}
+
+.login{
   float: right;
   position: relative;
-  top: 7%;
-  right: 50px;
-  z-index: 101;
+  top: -55px;
+  right: 350px;
+  z-index: 20;  
 }
 
 .login li {
@@ -127,33 +140,46 @@ body {
 }
 
 .login li a {
-  padding: 10px 15px;
+  padding: 10px 15px;  
+  color: #f2f2f2;
+}
+
+.login li:nth-child(1) {
+  color: #f2f2f2;
 }
 
 .login li:nth-child(2) {
   background-color: #000;
   border-radius: 10px;
+  color: #f2f2f2;
 }
 
 .login li a:hover {
   color: #ff9933;
 }
 
-#video {  
-  width: 1900px;
+
+/*section*/
+#movie{
+  display: block;
+  width: 100%;
   height: 700px;
-    
+  position: absolute;
+  top: 245px;
+  left: 0;
 }
-  
-.sec_b1 {
+
+.sec_b1 {  
+  display: block;
   width: 100%;
   height: 627px;
-  background: url(../images/main_bg_1.jpg) no-repeat center;
+  background: url(../images/main_bg_1.jpg) no-repeat center;  
+  margin-top: 700px;
 }
 
 .sec_b1_inner {
   margin: auto;
-  width: 1300px;
+  width: 1320px;
   height: 627px;
   display: block;
   padding: 95px 80px;
@@ -170,32 +196,18 @@ body {
 .subtitle {
   float: left;
   color: #fff;
-  margin: 30px 0 0 30px;
+  margin-bottom: 30px;padding-left: 20px;
 }
 
-h1 {
-  font-size: 40px;
-  font-weight: 300;
-  padding-bottom: 15px;
-}
-
-p {
-  font-size: 14px;
-  color: #1a1a1a;
-  font-weight: 300;
-  padding-top: 20px;
-}
-
-/*section*/
-.fugu_icon {
-  background: url(../images/fugu_icon.png) no-repeat center;
-  width: 119px;
+.fugu_icon { 
+  width: 120px;
   height: 100px;
   margin: auto;
-  padding-top: 200px;
+  padding-top: 100px;
+  display: block;
 }
 
-h2 {
+h2 {  
   padding-bottom: 10px;
   font-size: 22px;
   text-align: center;
@@ -203,25 +215,20 @@ h2 {
   color: #333;
 }
 
-.menu_1 {
-  width: 100%;
-  height: 480px;
-  margin: 0px 0 300px;
-  background: url(../images/menu_background.png) no-repeat center;
-}
-
-.menu_inner {
-  margin: auto;
-  width: 1055px;
-  display: block;
+.menu_1{  
+  position: relative;
+  top: -70px;
+  height: 700px;
   padding-top: 50px;
+  background: url(../images/menu_background.png) no-repeat center top 25%;    
 }
 
 .h8{
+  position: relative;
+  top: -130px;
   margin: auto;
   font-size: 12px;  
-  color: #333;
-  margin: auto;
+  color: #333;  
   font-weight: 200;
   display: block;
   text-align: center;
@@ -241,7 +248,15 @@ h2 {
   top: -20%;
 }
 
+.menu_inner{
+  padding-top: 85px;
+  margin: auto;
+}
 
+.back_4 {  
+  height: 500px;
+  background: url(../images/main_bg_4.jpg) no-repeat center bottom fixed;
+}
 
 .menu_3 {
   background: url(../images/wave_2.jpg) no-repeat center;
@@ -455,6 +470,7 @@ h2 {
 
 .list li a {
   padding: 0 10px 0 10px;
+  color: #f2f2f2;
 }
 
 .list li a:hover{
@@ -476,6 +492,7 @@ h2 {
   border: 1px solid #ccc;
   padding: 5px 20px;  
   margin: 0px 15px 0 10px;
+  color: #f2f2f2;
 }
 
 .list_2 li a:hover{
@@ -508,32 +525,3 @@ h2 {
 .social li:hover{
   opacity: 1;
 }
-
-
-/*추천메뉴*/
-
-div.imgSlide img {
-	border: solid 0px #ff9933;
-  width: 640px;
-  height: 400px;
-}
-
-div.imgSlide {
-	width:900px;
-	height:500px;
-	margin:0 auto; 
-}
-
-
-/*일품메뉴*/
-
-.aswiper-slide{
-  padding-bottom: 20px;
-}
-
-.aswiper-pagination{
-  margin: 30px 0 30px;
-}
-
-
-

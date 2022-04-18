@@ -2,10 +2,10 @@
 *{margin:0; padding:0;}
 ul, ol{list-style:none;}
 a:hover, a:link, a:active, a:visited{text-decoration:none; color:#333333;}
-a{text-decoration:none; color:#33333;}
+a{text-decoration:none; color:#333333;}
 
 body{
-	font-family:  'NEXON Lv1 Gothic';
+	font-family:  'Noto Sans KR', sans-serif;
 	font-size:12px;
 	line-height:24px;
 	color:#333333;
@@ -13,16 +13,7 @@ body{
 
 
 /*contents*/
-.sub_pink{
-	font-weight:bold;
-	color:#f0618e;
-	margin-top:5px;	
-}
-.sub_pink2{
-	font-weight:bold;
-	color:#f0618e;
-	font-size:12px;
-}
+
 .sub_bold{
 	font-weight:bold;
 }
@@ -30,13 +21,13 @@ body{
 	padding-top:10px;
 	font-size:10px;
 	color:#666;
-    font-weight:normal;	
+  font-weight:bold;	
 }
 
 #contents{
 	width:1200px;
 	height:450px;
-	margin:0 auto;	
+	margin:100px auto;	
 	line-height:15px;
 	margin-bottom:150px;		
 }
@@ -51,9 +42,7 @@ body{
 #contents1 ul{
 	float:left;
 }
-#contents1 ul li{
-	
-}
+
 #contents1 ul li:nth-child(1){
 	margin-left:0;
 }
@@ -81,7 +70,7 @@ body{
 }
 
 .bottom{
-	padding:10px 0;
+	padding:5px 0 15px;
 	position:absolute;
 	width:100%;
 	bottom:-20%;
@@ -91,6 +80,7 @@ body{
 	color:#333;
 	transition:all 0.5s;
 	text-align:center;
+	font-size: 16px;
 	background:rgba(255,255,255,0.7);
 }
 
@@ -103,9 +93,9 @@ body{
 .swiper-button-next{right: 347px;}
 .swiper-button-next{content:url(../images/arrow_right.png);
 	width: 15px;
-	height:25px;}
+	height: 25px;}
 	.swiper-button-prev{content:url(../images/arrow_left.png);
-	width:15px;
-	height:25px;}
+	width: 15px;
+	height: 25px;}
 
 
