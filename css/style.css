@@ -62,7 +62,7 @@ p {
 }
 .nav> li> a{
   display: block;
-  padding: 10px 0 20px;
+  padding: 10px 0 10px;
   width: 100px;
   text-align: center;
   font-size: 16px;
