@@ -161,7 +161,7 @@ p {
 /*section*/
 #movie{
   display: block;
-  
+  width: 1903px;
   height: 700px;
   position: absolute;
   top: 235px;
