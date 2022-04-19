@@ -176,7 +176,8 @@ p {
 }
 
 video{
-  max-width: 100%;
+  width: 100%;
+  display: block;
 }
 
 .sec_b1 {  
@@ -247,7 +248,7 @@ h2 {
 
 .back_2 {  
   height: 550px;
-  background: url(../images/main_bg_2.jpg) no-repeat center bottom fixed;
+  background: url(../images/main_bg_2.jpg) repeat center bottom fixed;
 }
 
 .menu_2 {
@@ -338,7 +339,7 @@ h2 {
 
 .back_3{  
   height: 500px;
-  background: url(../images/main_bg_3.jpg) no-repeat center top fixed;
+  background: url(../images/main_bg_3.jpg) repeat center top fixed;
 }
 
 .origin {
