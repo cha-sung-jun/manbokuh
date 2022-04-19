@@ -32,7 +32,8 @@ h1{
   padding-top: 40px;  
   font-size: 40px;
   font-weight: 500;
-  padding-bottom: 15px;  
+  padding-bottom: 15px; 
+  height: 110px; 
 }
 
 p {
@@ -50,15 +51,16 @@ p {
 }
 
 .nav{     
-  width: 1000px;
+  width: 1100px;
   height: 80px;
-  margin: auto;
+  margin: auto; 
 }
 .nav> li{
-  float: left;
-  margin: 10px 0 0 50px;  
-  padding: 3px 20px;
+  float: left;    
+  padding: 5px 25px; 
+  margin-left: 11px; 
 }
+
 .nav> li> a{
   display: block;
   padding: 10px 0 10px;
@@ -71,50 +73,55 @@ p {
   color: #ff9933;
 }
 
+.nav> li:nth-child(1){
+  margin-left: 150px;
+}
 
 .sub{
   background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  width: 100%;
-  left: 0px;
+  position: absolute;  
   display: none;
-  z-index: 10;
+  z-index: 10;  
+  width: 100%;
+  top: 235px;
+  left: 0;
+  margin: auto;
 }
 
 .sub div{
-  width: 1320px;
-  margin: auto; 
-  padding: 0px 200px 0 428px; 
+  text-align: center;
+  position: relative;  
+  left: 29%;
+  margin: auto;
 }
 
 .sub ul{
   float: left;
-  width: 160px;
-  text-align: center;
-  margin-left: 63px;
-}
-
-.sub ul:nth-child(2){
-  margin-left: 30px;
+  width: 150px; 
+  margin: auto;   
 }
 
 .sub ul:nth-child(3){
-  margin-left: 30px;
+ padding-left: 10px;
 }
 
-.sub ul:nth-child(4){
-  margin-left: 30px;
-}
+.sub ul:nth-child(2){
+  padding-left: 10px;
+ }
 
-.sub ul:nth-child(5){
-  margin-left: 30px;
-}
+ .sub ul:nth-child(4){
+  padding-left: 12px;
+ }
+
+ .sub ul:nth-child(5){
+  padding-left: 12px;
+ }
 
 .sub ul a{
   color: #f2f2f2;
   display: block;
-  padding: 10px;  
-  font-size: 14px;
+  padding: 10px 5px;  
+  font-size: 15px;
   font-weight: 400;  
 }
 
@@ -127,11 +134,10 @@ p {
 }
 
 .login{
-  float: right;
-  position: relative;
-  top: -55px;
-  right: 350px;
-  z-index: 20;  
+  float: right;  
+  position: relative;  
+  top: 38px;
+  right: 0;
 }
 
 .login li {
