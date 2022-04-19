@@ -160,7 +160,8 @@ p {
 
 /*section*/
 #movie{
-  display: block;  
+  display: block;
+  
   height: 700px;
   position: absolute;
   top: 235px;
@@ -320,16 +321,17 @@ h2 {
 }
 
 
+.back_3 {  
+  height: 500px;
+  background: url(../images/main_bg_3.jpg) no-repeat center center fixed;
+}
+
 .origin {
   width: 960px;
   height: 630px;
   margin: auto;
   margin-bottom: 130px;
 }
-
-
-
-
 
 .origin_pepper {
   width: 247px;
