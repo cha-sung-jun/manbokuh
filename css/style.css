@@ -175,6 +175,10 @@ p {
   margin: auto;
 }
 
+video{
+  max-width: 100%;
+}
+
 .sec_b1 {  
   display: block;
   width: 100%;
