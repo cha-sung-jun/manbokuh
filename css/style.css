@@ -224,6 +224,7 @@ h2 {
 
 .menu_1{  
   position: relative;
+  width: 100%;
   top: -70px;
   height: 700px;
   padding-top: 50px;
