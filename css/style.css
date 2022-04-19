@@ -162,6 +162,10 @@ p {
 
 
 /*section*/
+#movie{
+  width: 100%;
+}
+
 .m1{
   display: block;  
   width: 1903px;
