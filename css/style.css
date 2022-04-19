@@ -166,8 +166,8 @@ p {
 
 /*section*/
 #movie{
-  width: 100%;
-  display: inline;   
+  width: 1903px;
+  display: block;   
   height: 700px;
   position: absolute;
   top: 235px;
