@@ -311,19 +311,21 @@ h2 {
 
 .menu3_wrap a{
   display: block;  
-  overflow: hidden; /* 자손이 현재 요소보다 클때 안보이게 처리 */
+  overflow: hidden;
 }
 
-/* CSS변화가 있을때 시간차를 줌 */
-.menu3_wrap img{ transition: 0.3s; }
+.menu3_wrap img{
+  transition: 0.3s;
+}
+
 .menu3_wrap a:hover img, .menu3_wrap a:focus img{
   transform: scale(1.2);
 }
 
 
-.back_3 {  
+.back_3{  
   height: 500px;
-  background: url(../images/main_bg_3.jpg) no-repeat center center fixed;
+  background: url(../images/main_bg_3.jpg) no-repeat center top fixed;
 }
 
 .origin {
