@@ -268,7 +268,7 @@ h2 {
 
 .back_4 {  
   height: 500px;
-  background: url(../images/main_bg_4.jpg) no-repeat center bottom fixed;
+  background: url(../images/main_bg_4.jpg) repeat center bottom fixed;
 }
 
 .menu_3 {
