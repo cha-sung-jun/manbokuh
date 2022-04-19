@@ -29,11 +29,18 @@ body {
 }
 
 h1{
-  padding-top: 40px;  
   font-size: 40px;
   font-weight: 500;
+  padding-top: 40px;    
   padding-bottom: 15px; 
   height: 110px; 
+}
+
+.hl{
+  font-size: 40px;
+  padding-bottom: 0px;
+  margin-top: 20px;
+  
 }
 
 p {
@@ -207,7 +214,12 @@ video{
 .subtitle {
   float: left;
   color: #fff;
-  margin-bottom: 30px;padding-left: 20px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.subtitle p{
+  margin-top: -80px;
 }
 
 .fugu_icon { 
