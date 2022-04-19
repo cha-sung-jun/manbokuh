@@ -172,19 +172,13 @@ p {
 
 
 /*section*/
-#movie{
-  width: 1903px;
-  display: inline-block;   
-  height: 700px;
+#movie video{
+  width: 100%;
+  display: block;   
   position: absolute;
   top: 235px;
   left: 0;
   margin: auto;
-}
-
-video{
-  width: 100%;
-  display: block;
 }
 
 .sec_b1 {  
@@ -261,6 +255,7 @@ h2 {
 .back_2 {  
   height: 550px;
   background: url(../images/main_bg_2.jpg) repeat center bottom fixed;
+  background-size: cover;
 }
 
 .menu_2 {
@@ -281,6 +276,7 @@ h2 {
 .back_4 {  
   height: 500px;
   background: url(../images/main_bg_4.jpg) repeat center bottom fixed;
+  background-size: cover;
 }
 
 .menu_3 {
@@ -352,6 +348,7 @@ h2 {
 .back_3{  
   height: 500px;
   background: url(../images/main_bg_3.jpg) repeat center top fixed;
+  background-size: cover;
 }
 
 .origin {
