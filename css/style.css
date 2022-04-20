@@ -531,3 +531,14 @@ h2 {
 .social li:hover{
   opacity: 1;
 }
+
+
+/* 고정버튼 */
+.btn{
+    position: fixed;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
