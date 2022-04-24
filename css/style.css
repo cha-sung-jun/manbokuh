@@ -63,13 +63,12 @@ p {
 }
 .nav> li{
   float: left;    
-  padding: 25px 25px 0px; 
+  padding: 10px 25px 0px; 
   margin-left: 11px; 
 }
 
 .nav> li> a{
-  display: block;
-  padding: 10px 0 0px;
+  display: block;  
   width: 100px;
   text-align: center;
   font-size: 16px;
