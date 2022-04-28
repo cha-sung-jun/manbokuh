@@ -26,6 +26,7 @@ body {
 #header {
   background: url(../images/wave.jpg) no-repeat center;  
   height: 232px;
+  position: relative;
 }
 
 h1{
@@ -86,20 +87,22 @@ p {
 
 .sub{
   background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;  
-  display: none;
+  position: absolute;    
   z-index: 10;  
   width: 100%;
   top: 232px;
   left: 0;
-  margin: auto;
+  display: none;
 }
 
 .sub div{
-  text-align: center;
-  position: relative;  
-  left: 29%;
+  text-align: center;  
   margin: auto;
+  width: 1320px;
+  margin: auto;
+  overflow: hidden;
+  padding-left: 260px;
+  box-sizing: border-box;
 }
 
 .sub ul{
