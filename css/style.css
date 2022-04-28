@@ -26,7 +26,7 @@ body {
 #header {
   background: url(../images/wave.jpg) no-repeat center;  
   height: 232px;
-  position: relative;
+  position: relative;/*수정*/
 }
 
 h1{
@@ -85,19 +85,21 @@ p {
   margin-left: 150px;
 }
 
-.sub{
+.sub{/*수정*/
   background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;    
+  position: absolute;  
+ /* display: none;*/
   z-index: 10;  
   width: 100%;
   top: 232px;
   left: 0;
-  display: none;
+  
 }
 
-.sub div{
-  text-align: center;  
-  margin: auto;
+.sub div{/*수정*/
+  text-align: center;
+  /*position: relative;  
+  left: 29%;*/
   width: 1320px;
   margin: auto;
   overflow: hidden;
