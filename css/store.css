@@ -74,7 +74,6 @@ h1{
 .sub{
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;  
-  display: none;
   z-index: 33;  
   width: 100%;
   top: 232px;
@@ -240,7 +239,6 @@ h2 {
   float: left;
   padding-right: 21px;
 }
-
 
 .sec_inner_3 li:nth-child(1){
   position: relative;

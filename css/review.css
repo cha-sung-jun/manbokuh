@@ -73,8 +73,7 @@ h1{
 
 .sub{
   background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;  
-  display: none;
+  position: absolute;    
   z-index: 33;  
   width: 100%;
   top: 232px;
