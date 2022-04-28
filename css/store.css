@@ -241,9 +241,23 @@ h2 {
   padding-right: 21px;
 }
 
+
 .sec_inner_3 li:nth-child(1){
-  position: absolute;
-  top: 220%;  
+  position: relative;
+  top: 170px;
+  right: 330px;  
+}
+
+.sec_inner_3 li:nth-child(2){
+  position: relative;
+  top: -150px;
+  right: 0px;  
+}
+
+.sec_inner_3 li:nth-child(3){
+  position: relative;
+  top: -150px;
+  right: 0px;  
 }
 
 
